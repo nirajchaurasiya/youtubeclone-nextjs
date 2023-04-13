@@ -1,0 +1,61 @@
+/* font-family: 'DynaPuff', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap'); */
+
+/* Navbar Css and Responsive Css */
+@import url("./Navbar/navbar.css");
+@import url("./Navbar/navbar_responsive.css");
+
+/* MainContent CSS and responsive css */
+
+@import url("./Maincontent/maincontent.css");
+@import url("./Maincontent/Maincontent_responsive.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text-color: white;
+  --bg-color: black;
+  --sidebar-hover-p: #3a3a3a;
+  --hover-video: rgb(227, 227, 227);
+  --scroll-bar-color: rgb(87, 86, 86);
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  overflow-x: hidden;
+}
+
+body.light {
+  --text-color: black;
+  --bg-color: white;
+  --sidebar-hover-p: #9b9a9a;
+  --hover-video: rgb(205, 205, 205);
+  --scroll-bar-color: rgb(87, 86, 86);
+}
+
+body.dark {
+  --text-color: white;
+  --bg-color: black;
+  --sidebar-hover-p: #3a3a3a;
+  --hover-video: rgb(38, 37, 37);
+  --scroll-bar-color: rgb(87, 86, 86);
+}
+
+ul {
+  list-style: none;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--scroll-bar-color);
+  border-radius: 50px;
+}

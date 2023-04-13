@@ -1,0 +1,31 @@
+@media (max-width: 1000px) {
+  .side_bar {
+    width: 60px;
+  }
+  .side_bar_contents span {
+    display: none;
+  }
+  .show_none_to_phone {
+    display: none;
+  }
+  .mid_main_content {
+    padding-left: 70px !important;
+  }
+  .maincontent_suggestions {
+    padding-left: 60px !important;
+    padding: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .search_bar_btn {
+    border: 0px solid #333;
+    display: flex;
+    align-items: center;
+    flex: 0.4;
+    background-color: transparent;
+    border-radius: 20px;
+  }
+  .search_bar_btn input {
+    display: none;
+  }
+}

@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Abhi and Niyu",
+        "img": "/assests/abhiandniyu.jpg"
+    },
+    {
+        "name": "Asad Yaqub",
+        "img": "/assests/asadyaqub.jpg"
+    },
+    {
+        "name": "Code Evolution",
+        "img": "/assests/codeevolution.jpg"
+    },
+    {
+        "name": "Code Step by Step",
+        "img": "/assests/codestepbystep.jpg"
+    },
+    {
+        "name": "CodeWithHarry",
+        "img": "/assests/codewithharry.jpg"
+    },
+    {
+        "name": "Dhruv Rathee",
+        "img": "/assests/dhruvrathee.jpg"
+    },
+    {
+        "name": "Gaurav Thakur",
+        "img": "/assests/gauravthakur.jpg"
+    },
+    {
+        "name": "Khan Academy",
+        "img": "/assests/khanacademy.jpg"
+    },
+    {
+        "name": "Steve Harvey",
+        "img": "/assests/steveharvey.jpg"
+    }
+]
