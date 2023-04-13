@@ -5,7 +5,7 @@ const MainContent = () => {
             <div className="maincontent_suggestions">
                 {suggestions.map(e => {
                     return (
-                        <p>{e}</p>
+                        <p key={e}>{e}</p>
                     )
                 })}
             </div>
