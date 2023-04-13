@@ -24,11 +24,15 @@ export default function Navbar() {
     }
   }
   useEffect(() => {
-    if (localStorage.getItem('youtubeColorMode')) {
-      const mode = localStorage.getItem('youtubeColorMode')
-      document.body.classList.add(mode);
-      if (mode === 'dark') {
-        setColorModeIcon('🌞')
+    if (localStorage) {
+      if (localStorage.getItem('youtubeColorMode')) {
+        const mode = localStorage.getItem('youtubeColorMode')
+        document.body.classList.add(mode);
+        if (mode === 'dark') {
+          setColorModeIcon('🌞')
+        }
+      } else {
+        localStorage.setItem('youtubeColorMode', 'light');
       }
     }
     function handleResize() {
