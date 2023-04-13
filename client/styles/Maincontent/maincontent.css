@@ -54,12 +54,7 @@
   height: 50px;
   border-radius: 50%;
 }
-.allVideos:hover {
-  background-color: var(--hover-video);
-  border-radius: 15px;
-  transition: 0.3s;
-  transform: scale(1.09);
-}
+
 .allVideos:active {
   transition: 0.3s;
   border: 1px solid rgb(173, 172, 172);
